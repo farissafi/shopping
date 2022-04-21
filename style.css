@@ -1,0 +1,949 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+html {
+ 
+  scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    text-shadow: 1px 1px #fff;
+    color: #b30665;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    text-shadow: 1px 1px #fff;
+    color: #ffffff;
+}
+
+h4{
+    font-size: 29px;
+    color: #ffffff;
+    text-shadow: 1px 1px #fff;
+    font-weight: 900;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffffff;
+    text-shadow: 1px 1px #fff;
+}
+p{
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+header {
+    background:#000000;
+    width: 100%;
+     background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px ;
+}
+.h3{
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #ffffff;  
+}
+.h3 span{
+  color: #ffffff;
+}
+
+
+.logo img{
+    max-width:50px;
+   
+}
+
+
+
+.navigation a{
+    color: #ffffff;
+    text-decoration:dotted;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-left: 25px;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.navigation a:hover{
+    color: #0044ff;
+    letter-spacing: 3px;
+}
+
+section {
+    padding: 100px 200px;
+}
+#home {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    background: url(images/bac.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(68, 17, 75, 0.8)), to(rgba(0, 0, 0, 0.8)));
+    background: url(images/bac.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(100, 38, 114, 0.8));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    padding-top: 5rem;
+    position: relative;
+    text-align: center;
+  }
+  #home .paragraph p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+    padding-top: 0.9rem;
+  }
+
+  
+  #home button {
+    margin: 2rem 0;
+    font-size: 2rem;
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid #000000;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #eeeeee;
+    font-weight: bold;
+  }
+  
+  #home button:hover {
+    background: #000000;
+    color: #fff;
+  }
+  #home .buttons {
+    padding-right: 2rem;
+    padding-top: 3rem;
+  }
+  
+  #home .buttons button {
+    height: 4rem;
+    width: 14rem;
+    
+    border: 0.2rem solid #000000;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    margin: 2rem 2rem 2rem 0;
+  }
+  
+  #home  .buttons button:hover {
+    background: #000000;
+    color: #fff;
+  }
+  .heading{
+    text-align: center;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color:#000000;
+}
+
+.heading span{
+    background: #000000;
+    color:#ffffff;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+.h4{
+    text-align: center;
+    padding:.5rem 0;
+    padding-bottom: 3rem;
+    font-size: 2.8rem;
+    color:#000000;
+    
+}
+#about {
+  height: auto;
+    width: 100vw;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    background: #fff;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    padding-top: 5rem;
+    position: relative;
+    text-align: center;
+  }
+  
+  #about .image {
+    margin: 5rem 15rem;
+  }
+
+  
+  #about .image img {
+    width: 30rem;
+  }
+  
+  
+  #about .content {
+    width: 70vw;
+    
+  }
+  
+  #about .content h1 {
+    font-size: 4rem;
+    margin: 3rem 0;
+    color: #000000;
+  }
+  
+  
+  #about .content p {
+    font-size: 1.8rem;
+    padding-right: 6rem;
+    color: rgb(0, 0, 0);
+  }
+  #about .content p span:hover{
+    font-size: 2.5rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.9s ease;
+  }
+  .buttons button{
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.3rem solid #000000;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000000;
+    font-weight:900;
+    margin-top: 10px;
+  }
+  .buttons button:hover{
+    background: #000000;
+    color: #fff;
+  }
+  
+  
+  #about .content .buttons {
+    padding-right: 2rem;
+  }
+  
+  #about .content .buttons button {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.3rem solid #000000;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000000;
+    font-weight:900;
+    margin: 2rem 2rem 2rem 0;
+  }
+  
+  #about .content .buttons button:hover {
+    background: #000000;
+    color: #fff;
+  }
+#Service1 .card-container {
+    width: 90vw;
+    display:flex;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 2rem 0;
+    padding:1.5rem 2rem;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+  }
+  
+  
+  #Service1 .card-container .card {
+    width: 32rem;
+    height: 42rem;
+    margin: 2rem;
+    background:#fff;
+  }
+  #Service1 h4:hover{
+    letter-spacing: 3px;
+    transition: 0.9s ease;
+  }
+  
+  #Service1 .card-container .card img {
+    width: 50%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #Service1 .card-container .card .content {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #Service1 .card-container .card .content h1 {
+    color: #000000;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    
+  }
+  #Service1 .card-container .card .content h2 {
+    color: #000000;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    
+  }
+  #Service1 .card-container .card .content span {
+      text-decoration:line-through;
+      padding-left: 1rem;
+    color: #424757;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    
+  }
+  #Service1{
+      background:#fff;
+  }
+  #Service1 .card-container .card .content p {
+    font-size: 1.2rem;
+    padding: .5rem;
+    font-weight: 900;
+  }
+  
+  #Service1 .card-container .card .content button {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid #000000;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  #Service1 .card-container .card .content button:hover {
+    background: #000000;
+    color: #fff;
+  }
+  
+  #Service1 .card-container .card:hover {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    -webkit-box-shadow: 0 0 1rem #333;
+            box-shadow: 0 0 1rem #333;
+            transition: .9s ease;
+
+  }
+  #Service2 .card-container {
+    width: 90vw;
+    display:flex;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 2rem 0;
+    padding:1.5rem 2rem;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+  }
+  #Service1 h4{
+    color: #000;
+  }
+  
+  #Service2 .card-container .card {
+    width: 32rem;
+    height: 42rem;
+    margin: 2rem;
+    background:#fff;
+  }
+  #Service2 h4:hover{
+    letter-spacing: 3px;
+    transition: 0.9s ease;
+  }
+  
+  #Service2 .card-container .card img {
+    width: 50%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #Service2 .card-container .card .content {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #Service2 .card-container .card .content h1 {
+    color: #000000;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    
+  }
+  #Service2 .card-container .card .content h2 {
+    color: #000000;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    
+  }
+  #Service2 .h4{
+    color: #000;
+  }
+  #Service2 .card-container .card .content span {
+      text-decoration:line-through;
+      padding-left: 1rem;
+    color: #424757;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    
+  }
+  #Service2{
+      background: #fff;
+  }
+  #Service2 .card-container .card .content p {
+    font-size: 1.2rem;
+    padding: .5rem;
+    font-weight: 900;
+  }
+  
+  #Service2 .card-container .card .content button {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid #000000;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  #Service2 .card-container .card .content button:hover {
+    background: #000000;
+    color: #fff;
+  }
+  
+  #Service2 .card-container .card:hover {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    -webkit-box-shadow: 0 0 1rem #333;
+            box-shadow: 0 0 1rem #333;
+            transition: .9s ease;
+  }
+  #Service3 .card-container {
+    width: 90vw;
+    display:flex;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 2rem 0;
+    padding:1.5rem 2rem;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+  }
+  #Service3 h4:hover{
+    letter-spacing: 3px;
+    transition: 0.9s ease;
+  }
+  
+  #Service3 .card-container .card {
+    width: 32rem;
+    height: 42rem;
+    margin: 2rem;
+    background:#fff;
+  }
+  
+  #Service3 .card-container .card img {
+    width: 50%;
+    height: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #Service3 .card-container .card .content {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #Service3 .card-container .card .content h1 {
+    color: #000000;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    
+  }
+  #Service3 .card-container .card .content h2 {
+    color: #000000;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    
+  }
+  #Service3 .card-container .card .content span {
+      text-decoration:line-through;
+      padding-left: 1rem;
+    color: #424757;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    
+  }
+  #Service3 .h4{
+    color: #000;
+  }
+  #Service3{
+      background:#fff;
+  }
+  #Service3 .card-container .card .content p {
+    font-size: 1.2rem;
+    padding: .5rem;
+    font-weight: 900;
+  }
+  
+  #Service3 .card-container .card .content button {
+    height: 4rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid #000000;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  #Service3 .card-container .card .content button:hover {
+    background: #000000;
+    color: #fff;
+  }
+  
+  #Service3 .card-container .card:hover {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    -webkit-box-shadow: 0 0 1rem #333;
+            box-shadow: 0 0 1rem #333;
+            transition: .9s ease;
+  }
+
+  #feature{
+    background:#Fff;
+  }
+  #feature .fe-box{
+    width: 350px;
+    max-height: 100%;
+    text-align: center;
+    padding: 25px 10px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.8);
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 15px 0;
+    background: #fff;
+  }
+  #feature .card-container{
+    width: 90vw;
+    display:flex;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 1rem 0;
+    padding:1.5rem 2rem;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+  }
+  #feature .card-container .fe-box:hover {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    -webkit-box-shadow: 5px 5px  1rem #333;
+            box-shadow: 0 0 1rem #333;
+            transition: .9s ease;
+  }
+  
+  #feature .fe-box img{
+    width: 100%;
+  }
+  
+  #feature .fe-box h6{
+    font-size: 1.7rem;
+  }
+  #feature .fe-box p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family:cursive;
+  }
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center ;
+  background: url(images/banner.jpg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 3rem;
+}
+#banner h4{
+  font-size: 3rem;
+}
+#banner h4:hover{
+  font-size: 3.2rem;
+  letter-spacing: 2px;
+  transition: 0.5s ease;
+}
+#banner h2 span:hover{
+  font-size: 5rem;
+  transition: 0.9s ease;
+}
+#reviews {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: 100vw;
+  background: #fff;
+
+  background-position: center;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  padding-top: 5rem;
+  position: relative;
+  text-align: center;
+}
+#reviews .container{
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+#reviews .container .box{
+  width: calc(33% - 10px);
+  background: #Fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+#reviews .box .quote i{
+margin-top: 10px;
+font-size: 45px;
+color: #17c0eb
+}
+#reviews .container .box .image{
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background: #0044ff;
+  padding: 3px;
+  border-radius: 50%;
+}
+#reviews .box .image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+#reviews .box p{
+  text-align: justify;
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#reviews .box .name_job{
+  margin: 10px 0 3px 0;
+  color: #0044ff;
+  font-size: 18px;
+  font-weight: 600;
+}
+#reviews .rating i{
+  font-size: 18px;
+  color: #ddad2a;
+  margin-bottom: 5px;
+}
+#reviews .btns{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#reviews .btns button{
+  background: #fff;
+  width: 100%;
+  padding: 9px 0px;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.3s linear;
+}
+#reviews .btns button:first-child{
+  background: none;
+  margin-right: 5px;
+}
+#reviews .btns button:last-child{
+  color: #fff;
+  margin-left: 5px;
+}
+#reviews .btns button:first-child:hover{
+  background: #fff;
+  color: #fff;
+}
+#reviews .btns button:hover{
+  color: #fff;
+}
+#registration {
+   width: 100%;
+   height:100%;
+background: url(images/banner.jpg); 
+ background-position: center;
+  background-size: cover;
+  position: absolute;
+  }
+#registration .form-box{
+  border-radius: 5%;
+  width: 450px;
+  height: 560px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+}
+#registration .button-box{
+  width: 250px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+
+}
+#registration .toggle-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  background: linear-gradient(to right , #ff105f , #ffad06);
+  border-radius: 30px;  
+  transition: .5s ease;
+}
+#registration .social-icons{
+  margin: 30px auto;
+  text-align: center;
+}
+#registration .social-icons img{
+  width: 30px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f3d;
+  cursor: pointer;
+   border-radius: 50%;
+}
+#registration .input-group{
+  top:180px;
+  position:absolute;
+  width:280px;
+  transition:.5s ease;
+}
+#registration .input-group .input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin:5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+
+}
+#registration .submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient( to right , #ff105f ,#ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+#registration .chech-box{
+  margin: 30px 10px 30px 0;
+}
+#registration span{
+  color: #777;
+  font-size: 12px;
+  font-weight: 400;
+  bottom:68px;
+  position: absolute;
+}
+#login{
+  left: 50px;
+}
+#register{
+  left:450px;
+}
+#payment {
+  padding-top:64rem;
+  
+}
+#payment .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:100%;
+background-color: #fff;  background-position: center;
+  background-size: cover;
+  position: absolute;
+  }
+
+#payment  .container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+#payment  .container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+#payment  .container form .row .col{
+  flex:1 1 250px;
+}
+
+#payment .container form .row .col .title{
+  font-size: 20px;
+  background: #000;
+  color:rgb(255, 255, 255);
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#payment .container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+#payment .container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+#payment .container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+#payment .container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+#payment .container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+#payment .container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+#payment .container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+#payment .container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #000804;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#payment .container form .submit-btn:hover{
+  background: #000000;
+}
